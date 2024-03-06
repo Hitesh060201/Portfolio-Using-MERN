@@ -6,7 +6,7 @@ import { FcPortraitMode } from "react-icons/fc";
 import { FcTimeline } from "react-icons/fc";
 import { FcReadingEbook } from "react-icons/fc";
 import { FcVideoProjector } from "react-icons/fc";
-import { FcVoicePresentation } from "react-icons/fc";
+
 import { FcContacts } from "react-icons/fc";
 const Menus = ({isSidebarOpen}) => {
   return (
@@ -27,24 +27,21 @@ const Menus = ({isSidebarOpen}) => {
       About
       </div>
       <div className="nav-link">
-      <FcPortraitMode />
-      Work Experience
+      <FcReadingEbook />
+      Education
       </div>
       <div className="nav-link">
       <FcTimeline />
       Tech Stack
       </div>
-      <div className="nav-link">
-      <FcReadingEbook />
-      Education
-      </div>
+      
       <div className="nav-link">
       <FcVideoProjector />
       Projects
       </div>
       <div className="nav-link">
-      <FcVoicePresentation />
-      Testimonials
+      <FcPortraitMode />
+      Work Experience
       </div>
       <div className="nav-link">
       <FcContacts />
@@ -68,23 +65,22 @@ const Menus = ({isSidebarOpen}) => {
      
       </div>
       <div className="nav-link">
-      <FcPortraitMode title='Work Experience' />
-      
-      </div>
-      <div className="nav-link">
-      <FcTimeline  title='Tech Stack'/>
-      
-      </div>
-      <div className="nav-link">
       <FcReadingEbook  title='Education'/>
       
       </div>
       <div className="nav-link">
-      <FcVideoProjector  title='Projects'/>
+      <FcTimeline  title='Tech Stack'/>
+
+      
+      
       
       </div>
       <div className="nav-link">
-      <FcVoicePresentation  title='Testimonials'/>
+      <FcVideoProjector  title='Projects'/>
+      </div>
+      <div className="nav-link">
+      <FcPortraitMode title='Work Experience' />
+      
       
       </div>
       <div className="nav-link">

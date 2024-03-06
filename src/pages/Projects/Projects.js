@@ -9,7 +9,7 @@ const Projects = () => {
         </h2>
         <hr />
         <p className="pb-3 text-center">
-        👉 Here are My top3 recent projects with live links and source code
+        <h4>👉 Here are My top3 recent projects with live links and source code</h4>
         </p>
         {/* card design */}
         <div className="row" id="ads">
@@ -19,14 +19,14 @@ const Projects = () => {
                 <div className="card-image">
                   <span className="card-notify-badge">Full stack</span>
                   <img
-                    src="https://unctad.org/sites/default/files/2021-03/2021-03-15_eCommerceCOVID19report-1-1220x675px.jpg"
+                    src="Project1.jpg"
                     alt="project1"
                   />
                 </div>
                 <div className="card-image-overly m-auto mt-3">
                   <span className="card-detail-badge">Node</span>
                   <span className="card-detail-badge">Express</span>
-                  <span className="card-detail-badge">react</span>
+                  <span className="card-detail-badge">React</span>
                   <span className="card-detail-badge">Mongodb</span>
                 </div>
                 <div className="card-body text-center">
@@ -49,7 +49,7 @@ const Projects = () => {
                 <div className="card-image">
                   <span className="card-notify-badge">Android App</span>
                   <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR356D-1YtSagN4-_ZdjZ5H9o6PKUO4h12dvw&usqp=CAU"
+                    src="Project2.jpg"
                     alt="project2"
                   />
                 </div>
@@ -77,7 +77,7 @@ const Projects = () => {
                 <div className="card-image">
                   <span className="card-notify-badge">Frontend</span>
                   <img
-                    src="https://www.nextwebi.com/assets/img/img-source/mobile-top-banner-28.png"
+                    src="Project3.jpg"
                     alt="project1"
                   />
                 </div>
@@ -97,7 +97,70 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          
+
+            <div className="col-md-4 mt-5">
+              <div className="card rounded">
+                <div className="card-image">
+                  <span className="card-notify-badge">Frontend</span>
+                  <img
+                    src="Project4.jpg"
+                    alt="project1"
+                  />
+                </div>
+                <div className="card-image-overly m-auto mt-3">
+                  <span className="card-detail-badge">HTML</span>
+                  <span className="card-detail-badge">CSS</span>
+                  <span className="card-detail-badge">JavaScript</span>
+                  
+                </div>
+                <div className="card-body text-center">
+                  <div className="ad-title m-auto">
+                    <h5 className="text-uppercase">
+                      E-Commerce UI
+                    </h5>
+                  </div>
+                  <a
+                    className="ad-btn"
+                    href="https://github.com/techinfo-youtube/ecommerce-app-2023"
+                  >
+                    View
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 mt-5">
+              <div className="card rounded">
+                <div className="card-image">
+                  <span className="card-notify-badge">BlockChain</span>
+                  <img
+                    src="Project5.jpg"
+                    alt="project1"
+                  />
+                </div>
+                <div className="card-image-overly m-auto mt-3">
+                  <span className="card-detail-badge ">React</span>
+                  <span className="card-detail-badge">Bootstrap</span>
+                  <span className="card-detail-badge">Solidity</span>
+                  <span className="card-detail-badge">Ethereum</span>
+                  
+                  
+                  
+                </div>
+                <div className="card-body text-center">
+                  <div className="ad-title m-auto">
+                    <h5 className="text-uppercase">
+                      PDS Using BlockChain
+                    </h5>
+                  </div>
+                  <a
+                    className="ad-btn"
+                    href="https://github.com/techinfo-youtube/ecommerce-app-2023"
+                  >
+                    View
+                  </a>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
     </>

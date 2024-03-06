@@ -20,6 +20,7 @@
     font-family: cursive;
     border-bottom: 2px solid gray;
     font-weight: bolder;
+    cursor: pointer;
 }
 .about-content p{
     color: rgb(25, 0, 71);
@@ -27,4 +28,9 @@
     padding: 20px;
     font-weight: bold;
     
+}
+.about-content h1:hover{
+    color: rgb(240, 12, 50);
+    transition: 1s;
+
 }
