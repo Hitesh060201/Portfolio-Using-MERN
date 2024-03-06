@@ -1,5 +1,5 @@
 import React from 'react'
-import"./Projects.css"
+import "./Projects.css"
 const Projects = () => {
   return (
     <>
@@ -20,7 +20,6 @@ const Projects = () => {
                             <span className='card-detail-badge'>Express</span>
                             <span className='card-detail-badge'>Reactjs</span>
                             <span className='card-detail-badge'>MongoDB</span>
-
                         </div>
                     </div>
                 </div>
