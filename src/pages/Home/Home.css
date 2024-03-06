@@ -1,0 +1,51 @@
+.home-container{
+    height: 300px;
+    
+    padding-left:150px;
+}
+.home-content h2{
+    padding: 5px;
+    padding-top: 80px;
+    color: yellow;
+}
+.home-content h1{
+    padding: 5px;
+    color: hsl(209, 97%,48% );
+}
+.home-buttons{
+    padding: 30px;
+    /*margin-left: 30px;*/
+    margin-top: 20px;
+    
+}
+.home-buttons .btn-hire{
+    background-color: hwb(209 2% 0%);
+    color: hwb(0 0% 100%);
+    width: 150px;
+}
+.home-buttons .btn-hire:hover{
+    background-color: hsl(64, 88%, 74%);
+    color: hwb(0 1% 7%);
+    width: 180px;
+    transition: 0.7s;
+}
+.home-buttons .btn-cv{
+    background-color: rgb(255, 5, 130);
+    color: #000000;
+    width: 150px;
+    margin-left: 15px;
+}
+.home-buttons .btn-cv:hover{
+    background-color:#fbff00;
+    color: rgb(29, 2, 2);
+    opacity: 80%;
+    transition: 0.7s;
+}
+.b1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.b2{
+    font-family:Arial, Helvetica, sans-serif;;
+    font-weight: bolder;
+}

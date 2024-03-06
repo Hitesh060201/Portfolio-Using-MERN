@@ -1,0 +1,13 @@
+.project{
+    margin:50px 0px;
+    margin-left: 140px;
+}
+.project hr{
+    color: #0568fc;
+    width: 400px;
+    margin: 10px auto;
+}
+.project h2{
+    font-weight: bolder;
+    color: hsl(224, 97%, 48%);
+}
