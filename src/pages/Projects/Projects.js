@@ -18,8 +18,8 @@ const Projects = () => {
                         <div className='card-image-overly'>
                             <span className='card-detail-badge'>Node</span>
                             <span className='card-detail-badge'>Express</span>
-                            <span className='card-detail-badge'>Node</span>
-                            <span className='card-detail-badge'>Node</span>
+                            <span className='card-detail-badge'>Reactjs</span>
+                            <span className='card-detail-badge'>MongoDB</span>
 
                         </div>
                     </div>
