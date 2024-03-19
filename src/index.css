@@ -4,5 +4,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background: linear-gradient(to  right, rgb(9, 221, 158), rgb(238, 156, 190));
+}
+/* DARK MODE */
+#dark {
+  background:linear-gradient(to bottom right ,gray, black);
+  color: #f4eee0;
+}
 
+/* ======================= */
+@media (max-width: 600px) {
+  .footer {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
 

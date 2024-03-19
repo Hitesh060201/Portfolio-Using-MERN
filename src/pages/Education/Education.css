@@ -16,6 +16,11 @@
     color: #023bf5;
     cursor: pointer;
   }
+  .education h2:hover {
+    
+    color: #ff004c;
+    transition: 1s;
+  }
   
   .education .vertical-timeline-element-title {
     color: hsl(315, 75%, 30%);
@@ -24,25 +29,49 @@
   .education .vertical-timeline-element-subtitle {
     color: #370363;
   }
+  .education .vertical-timeline-element-date {
+    color: black;
+    font-weight: bolder;
+  }
+
+   /* ========= DARK MODE ============ */
+  #dark .education{
+    background: linear-gradient(black gray);
+    
+  }
+  #dark .education h2{
+    color: aliceblue;
+  }
+  #dark .education hr{
+    color: aliceblue;
+  }
+  #dark .education h2:hover{
+    color: rgb(255, 251, 0);
+    transition: 1s;
+  }
+   #dark .education .vertical-timeline-element-date {
+    color: #d9ff00;
+  }
+ 
   
-  /* ========= DARK MODE ============ */
-  
-  #dark .education {
+  /*#dark .education {
     background-color: rgba(255, 255, 255, 0.095);
   }
   
   /* ========================== */
-  @media (max-width: 600px) {
+ /* @media (max-width: 600px) {
     .education {
       margin: 0;
       padding: 0;
       margin-top: 30px;
     }
-    .education h2 {
+    #dark .education h2 {
+      color: aliceblue;
       padding-top: 20px;
       cursor: pointer;
     }
-    .education hr {
+    #dark .education hr {
+      color: aliceblue;
       width: 280px;
       margin-bottom: 10px;
     }
@@ -54,3 +83,26 @@
     color: rgb(240, 12, 50);
     transition: 1s;
   }
+  /* ========= DARK MODE ============ */
+
+/*#dark .education {
+  background-color: rgba(255, 255, 255, 0.095);
+}
+
+/* ========================== */
+/*@media (max-width: 600px) {
+  .education {
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+  }
+  #dark .education h2 {
+    color: aliceblue;
+    padding-top: 20px;
+  }
+  #dark .education hr {
+    color: aliceblue;
+    width: 280px;
+    margin-bottom: 10px;
+  }
+}*/

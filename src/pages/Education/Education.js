@@ -6,13 +6,18 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import "./Education.css";
+
+import Rubberband from "react-reveal/RubberBand"
 const Education = () => {
   return (
     <>
+    
       <div className=" education" id="education">
+        <Rubberband>
         <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
           Education Details
         </h2>
+        </Rubberband>
         <hr />
         <VerticalTimeline>
           <VerticalTimelineElement
@@ -56,6 +61,7 @@ const Education = () => {
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
+      
     </>
   );
 };

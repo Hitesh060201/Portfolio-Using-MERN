@@ -105,4 +105,17 @@
       margin-top: 30px;
     }
   }
+
+  /* ========= DARK MODE ============ */
+ 
+  #dark .project h2{
+    color: aliceblue;
+  }
+  #dark .project hr{
+    color: aliceblue;
+  }
+  #dark .project h2:hover{
+    color: rgb(255, 251, 0);
+    transition: 1s;
+  }
   

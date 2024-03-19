@@ -6,31 +6,34 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import "./WorkExp.css";
+import Rubberband from "react-reveal/RubberBand"
 const WorkExp = () => {
   return (
     <>
       <div className="work" id="work">
         <div className="container work-exp">
+          <Rubberband>
           <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
             Work Experience
           </h2>
           <hr />
+          </Rubberband>
           <VerticalTimeline lineColor="#1e1e2c">
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: "white", color: "#1e1e2c" }}
+              contentStyle={{ background: "Yellow", color: "#1e1e2c" }}
               contentArrowStyle={{
                 borderRight: "7px solid  white",
               }}
               date="2023 - present"
-              iconStyle={{ background: "#1e1e2c", color: "#fff" }}
+              iconStyle={{ background: "hsl(101, 100%, 35%)", color: "#fff" }}
               icon={<SiReact />}
             >
               <h3 className="vertical-timeline-element-title">
                 Full Stack Developer
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                xyz, pvt ltd
+                Using MERN
               </h4>
               <p>
                 Creative Direction, User Experience, Visual Design, Project
@@ -39,19 +42,19 @@ const WorkExp = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: "white", color: "#1e1e2c" }}
+              contentStyle={{ background: "Yellow", color: "#1e1e2c" }}
               contentArrowStyle={{
                 borderRight: "7px solid  white",
               }}
-              date="2020 - 2022"
-              iconStyle={{ background: "#1e1e2c", color: "#fff" }}
+              date="2020 - 2021"
+              iconStyle={{ background: "hsl(101, 100%, 35%)", color: "#fff" }}
               icon={<SiReact />}
             >
               <h3 className="vertical-timeline-element-title">
-                Full Stack Developer
+                Frontend Developer
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                xyz, pvt ltd
+                Using HTML,CSS,JavaScript
               </h4>
               <p>
                 Creative Direction, User Experience, Visual Design, Project
@@ -60,19 +63,19 @@ const WorkExp = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: "white", color: "#1e1e2c" }}
+              contentStyle={{ background: "Yellow", color: "#1e1e2c" }}
               contentArrowStyle={{
                 borderRight: "7px solid  white",
               }}
-              date="2018 - 2020"
-              iconStyle={{ background: "#1e1e2c", color: "#fff" }}
+              date="2022 - 2023"
+              iconStyle={{ background: "hsl(101, 100%, 35%)", color: "#fff" }}
               icon={<SiReact />}
             >
               <h3 className="vertical-timeline-element-title">
-                Full Stack Developer
+                Android APp  Developer
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                xyz, pvt ltd
+                Using Kotlin,XML,Android studio
               </h4>
               <p>
                 Creative Direction, User Experience, Visual Design, Project

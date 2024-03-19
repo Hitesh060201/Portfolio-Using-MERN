@@ -1,19 +1,24 @@
 import React from "react";
 import "./Projects.css";
+import  Rubberband from "react-reveal/RubberBand";
+import  Bounce from "react-reveal/Bounce";
 const Projects = () => {
   return (
     <>
       <div className="continer project" id="projects">
+        <Rubberband>
         <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
           TOP RECENT PROJECTS
         </h2>
+
         <hr />
         <p className="pb-3 text-center">
         <h4>👉 Here are My top3 recent projects with live links and source code</h4>
         </p>
+        </Rubberband>
         {/* card design */}
         <div className="row" id="ads">
-          
+          <Bounce>
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
@@ -161,7 +166,9 @@ const Projects = () => {
                 </div>
               </div>
             </div>
+            </Bounce>
         </div>
+        
       </div>
     </>
   );

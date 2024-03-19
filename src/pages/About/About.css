@@ -7,7 +7,7 @@
 .about-img img{
     border-radius: 10px;
     width: 80%;
-    height: 400px;
+    height: 470px;
 }
 .about-content{
     display: flex;
@@ -27,10 +27,51 @@
     text-align: justify;
     padding: 20px;
     font-weight: bold;
+    cursor: pointer;
     
+}
+.about-content p:hover{
+  color: rgb(132, 0, 209);
+  transition: 1s;
 }
 .about-content h1:hover{
     color: rgb(240, 12, 50);
     transition: 1s;
 
 }
+/* ======== DARK MODE ========= */
+
+#dark .about {
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.15);
+  }
+  
+  #dark .about-content h1 {
+    color: #e4dede;
+    border-bottom: 2px solid #b0a4a4;
+  }
+  #dark .about-content p{
+    color: #d6d6d6;
+    cursor: pointer;
+  }
+  #dark .about-content p:hover{
+    color: rgb(238, 255, 0);
+    transition: 1s;
+    }
+  #dark .about-content h1:hover{
+    color: aqua;
+    transition: 1s;
+  }
+  /* ================================ */
+  @media (max-width: 600px) {
+    .about {
+      margin: 0;
+      padding: 0;
+      margin-top: 20px;
+      width: 100%;
+    }
+    .about-content h1 {
+      margin-top: 10px;
+    }
+  }
+  
