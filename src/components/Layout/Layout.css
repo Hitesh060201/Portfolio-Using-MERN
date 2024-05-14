@@ -24,3 +24,10 @@
     color: #13050b;
     margin-top: 30px;
 }
+/* ==== MOBILE VIEW ========== */
+@media (max-width: 600px) {
+    .sidebar {
+      display: none;
+    }
+  }
+  

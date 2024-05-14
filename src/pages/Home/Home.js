@@ -37,7 +37,12 @@ const Home = () => {
         
         <div className="home-buttons">
           <Wobble>
-          <button className="btn btn-hire b1">Hire Me</button>
+            <a className="btn btn-hire b1"  
+            href="https://api.whatsapp.com/send?phone=8457879345"
+            rel='noreferrer'
+            target='_blank'
+            >Hire Me</a>
+         
           </Wobble>
           <Wobble >
           <a className="btn btn-cv b2" href={Resume} download="HITESH KUMAR MISRA CV.pdf">My Resume</a>

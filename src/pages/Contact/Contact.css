@@ -142,3 +142,29 @@ input:focus,textarea:focus{
     color: rgb(255, 251, 0);
     transition: 1s;
   }
+  /* ======================== */
+@media (max-width: 600px) {
+    .contact {
+      margin: 0;
+      padding: 0;
+      margin-top: 50px;
+    }
+    .contact .card2 {
+      margin: 0;
+    }
+  
+    .contact .card2 h6 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    input,textarea{
+       margin-left: 12px;
+    }
+    .button{
+        margin-left:60px;
+        
+       
+       
+    }
+  }

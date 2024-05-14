@@ -56,7 +56,7 @@ const Contact = () => {
                         </Zoom>
                         <div className="row px-3">
                             <Wobble>
-                            <button className="button" type="submit" >
+                            <button className="button" type="submit"  >
                                 SEND MESSAGE
                                 </button>
                                 </Wobble>

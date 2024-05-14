@@ -16,7 +16,7 @@
     align-items: center;
 }
 .about-content h1{
-    color: rgb(4, 0, 255);
+    color: rgb(18, 0, 182);
     font-family: cursive;
     border-bottom: 2px solid gray;
     font-weight: bolder;
@@ -74,4 +74,5 @@
       margin-top: 10px;
     }
   }
+  
   

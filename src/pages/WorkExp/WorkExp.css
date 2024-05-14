@@ -10,18 +10,18 @@
   .work-exp h2 {
     
     font-weight: bold;
-    color: #1900ff;
+    color: #240594;
     cursor: pointer;
   }
   .work-exp h2:hover {
     
-    color: #ff0846;
+    color: #d8063a;
     transition: 1s;
   }
   .work-exp h4{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    color: #ea02ff;
+    color: #5e0686;
   }
   .work-exp hr {
     color: #034ae2;
@@ -32,17 +32,18 @@
   .work-exp .vertical-timeline-element-title {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    color: #ea02ff;
+    color: #6003859f;
   }
   
   .work-exp .vertical-timeline-element-subtitle {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 500;
-    color: #cc00ffc4;
+    color: #1d0061c4;
   }
   .work-exp .vertical-timeline p {
-    font-weight: 550;
-    color: #ff000d;
+    font-weight: bolder;
+    font-size: medium;
+    color: #2803d1c4;
   }
   .work-exp .vertical-timeline-element-date{
     color: black;
@@ -78,4 +79,5 @@
       width: 280px;
     }
   }
+  
   

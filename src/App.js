@@ -11,13 +11,14 @@ import Contact from './pages/Contact/Contact';
 import ScrollToTop from "react-scroll-to-top";
 import { useTheme } from './Content/ThemeContent';
 import Jello from 'react-reveal/Jello';
+import MobileNav from './components/MobilNav/MobileNav';
 function App() {
   const [theme]=useTheme();
   return (
     <>
     <div id={theme}>
 
-   
+    <MobileNav/>
      <Layout/>
      <div className="container">
      <About/>
