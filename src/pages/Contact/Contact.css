@@ -46,8 +46,8 @@ input,textarea{
     margin-bottom: 5px;
     margin-top: 2px;
     width: 100%;
-    color: hsl(184, 100%, 50%);
-    font-weight: 1rem;
+    color: hsl(244, 98%, 16%);
+    font-weight: 3rem;
     letter-spacing: 1px;
 }
 input:focus,textarea:focus{

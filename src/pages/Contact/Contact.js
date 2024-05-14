@@ -1,11 +1,38 @@
-import React from 'react'
+import React,{ useRef } from 'react'
 import "./Contact.css"
 import { BsLinkedin,BsGithub,BsFacebook,BsInstagram } from "react-icons/bs";
 import  Zoom  from 'react-reveal/Zoom';
 import Roll from 'react-reveal/Roll';
 
 import Wobble from "react-reveal/Wobble"
+import emailjs from '@emailjs/browser';
+
+
+
 const Contact = () => {
+    const form = useRef();
+  
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs
+        .sendForm('service_w6maqch', 'template_xgjqm1e', form.current, {
+          publicKey: 'LFZzNHx6b1PZWtiXf',
+        })
+        .then(
+          (result) => {
+            console.log((result.text));
+          },
+          (error) => {
+            console.log((error.text));
+          },
+        );
+    };
+    const handleClick = () => {
+        alert('Message Sent!'); // Display an alert when the button is clicked
+      };
+    
+        
   return (
     <>
     
@@ -41,27 +68,30 @@ const Contact = () => {
                             <div className="line" />
 
                         </div>
+                          <form ref={form} onSubmit={sendEmail}>
                         <Zoom>
-                        <div className="row px-3">
-                       
-                            <input type="text" name="name" placeholder="Enter Your Name" className="mb-3" />
+                        <div className="row px-3" ref={form} onSubmit={sendEmail}>
+                            <input type="text" name="from_name" placeholder="Enter Your Name" className="mb-3" />
                         </div>
                         <div className="row px-3">
-                            <input type="email" name="email" placeholder="Enter Your Email Address" className="mb-3" />
+                            <input type="email" name="from_email" placeholder="Enter Your Email Address" className="mb-3" />
                         </div>
                         <div className="row px-3">
-                            <textarea type="text" name="msg" placeholder="Write Your Message" className="mb-3" />
+                            <textarea type="text" name="message" placeholder="Write Your Message" className="mb-3" />
                             
                         </div>
                         </Zoom>
                         <div className="row px-3">
                             <Wobble>
-                            <button className="button" type="submit"  >
+                             <button className="button" type="submit"  value="Send" onClick={handleClick} >
+                                
                                 SEND MESSAGE
                                 </button>
+                                
                                 </Wobble>
                                
                         </div>
+                                </form>
                         
                     </div>
                     </div>  

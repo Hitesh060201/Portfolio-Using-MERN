@@ -46,16 +46,16 @@ export const TechstackList = [
     name: "Nextjs",
     icon: TbBrandNextjs,
   },
-  {
-    _id: 7,
-    name: "React MUI",
-    icon: SiMui,
-  },
-  {
-    _id: 8,
-    name: "Tailwind ",
-    icon: SiTailwindcss,
-  },
+  // {
+  //   _id: 7,
+  //   name: "React MUI",
+  //   icon: SiMui,
+  // },
+  // {
+  //   _id: 8,
+  //   name: "Tailwind ",
+  //   icon: SiTailwindcss,
+  // },
   {
     _id: 9,
     name: "Figma ",
@@ -67,11 +67,11 @@ export const TechstackList = [
     name: "Photoshop ",
     icon: SiAdobephotoshop,
   },
-  {
-    _id: 11,
-    name: "React Native ",
-    icon: SiReact,
-  },
+  // {
+  //   _id: 11,
+  //   name: "React Native ",
+  //   icon: SiReact,
+  // },
   {
     _id: 12,
     name: "Node JS ",
